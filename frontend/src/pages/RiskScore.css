@@ -1,0 +1,79 @@
+.risk-card {
+  background: rgba(15, 20, 35, 0.85);
+  border-radius: 28px;
+  padding: 35px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.risk-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.risk-subtitle {
+  color: #b8c2d8;
+}
+
+.fraud-badge {
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.badge-success {
+  background: rgba(0, 255, 128, 0.18);
+  color: #00ff99;
+}
+
+.badge-warning {
+  background: rgba(255, 193, 7, 0.18);
+  color: #ffc107;
+}
+
+.badge-danger {
+  background: rgba(255, 77, 109, 0.18);
+  color: #ff4d6d;
+}
+
+.risk-stat-card,
+.risk-detail-box {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 22px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.risk-stat-card h5,
+.risk-detail-box span {
+  color: #aab3c5;
+}
+
+.risk-stat-card h1,
+.risk-detail-box h5 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.section-heading {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.risk-reasons {
+  padding-left: 20px;
+  color: #d8e2f0;
+}
+
+.risk-reasons li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
