@@ -1,4 +1,26 @@
+# Node modules
 node_modules/
+
+# Environment files
 .env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+
+# Build folders
 dist/
 build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (for AI service)
+__pycache__/
+*.pyc
+venv/
